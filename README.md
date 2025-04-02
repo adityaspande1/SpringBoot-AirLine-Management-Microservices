@@ -16,7 +16,7 @@ A Airline Ticket Booking System built using Spring Boot Microservices, featuring
 
 ### User Service
 
-Base URL: `http://localhost:8082/users`
+Base URL: `http://localhost:8082`
 
 #### Get Scheduled FLights
 
