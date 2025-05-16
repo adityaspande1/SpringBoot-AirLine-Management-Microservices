@@ -1,7 +1,7 @@
 # Multi-stage build for flight-service
 
 # Stage 1: Build and test the application
-FROM maven:3.8.6-openjdk-21 AS build
+FROM maven:3.9-eclipse-temurin-21-alpine AS build
 WORKDIR /app
 
 # Copy the pom.xml file
