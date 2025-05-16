@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 @Builder
 public class TicketInfo {
     private String ticketId;
